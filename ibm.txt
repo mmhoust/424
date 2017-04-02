@@ -1,0 +1,38 @@
+Trying "www.ibm.com"
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11606
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.ibm.com.			IN	A
+
+;; ANSWER SECTION:
+www.ibm.com.		3414	IN	CNAME	www.ibm.com.cs186.net.
+www.ibm.com.cs186.net.	26	IN	CNAME	www2.ibm.com.edgekey.net.
+www2.ibm.com.edgekey.net. 20295	IN	CNAME	www2.ibm.com.edgekey.net.globalredir.akadns.net.
+www2.ibm.com.edgekey.net.globalredir.akadns.net. 899 IN	CNAME e2874.dscx.akamaiedge.net.
+e2874.dscx.akamaiedge.net. 19	IN	A	104.112.153.29
+
+Received 209 bytes from 8.8.8.8#53 in 46 ms
+Trying "e2874.dscx.akamaiedge.net"
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 34101
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;e2874.dscx.akamaiedge.net.	IN	AAAA
+
+;; ANSWER SECTION:
+e2874.dscx.akamaiedge.net. 19	IN	AAAA	2600:1402:19:2a6::b3a
+e2874.dscx.akamaiedge.net. 19	IN	AAAA	2600:1402:19:296::b3a
+
+Received 99 bytes from 8.8.8.8#53 in 88 ms
+Trying "e2874.dscx.akamaiedge.net"
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 58641
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;e2874.dscx.akamaiedge.net.	IN	MX
+
+;; AUTHORITY SECTION:
+dscx.akamaiedge.net.	999	IN	SOA	n0dscx.akamaiedge.net. hostmaster.akamai.com. 1491010403 1000 1000 1000 1800
+
+Received 107 bytes from 8.8.8.8#53 in 32 ms
