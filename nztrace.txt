@@ -1,0 +1,19 @@
+traceroute to tourismnewzealand.com (210.48.11.50), 30 hops max, 60 byte packets
+ 1  gateway (192.168.2.1)  5.617 ms  6.987 ms  1.797 ms
+ 2  10.0.2.2 (10.0.2.2)  6.940 ms  8.831 ms  6.739 ms
+ 3  64.139.244.1 (64.139.244.1)  33.478 ms  41.762 ms  47.536 ms
+ 4  static-host-24-31-25-1.nctv.com (24.31.25.1)  45.705 ms  57.549 ms  59.650 ms
+ 5  68-115-217-97.static.spbg.sc.charter.com (68.115.217.97)  61.409 ms  63.780 ms  67.035 ms
+ 6  dtr01arsnsc-tge-0-1-0-3.arsn.sc.charter.com (96.34.93.128)  66.828 ms  52.336 ms  55.391 ms
+ 7  crr11spbgsc-tge-0-2-1-0.spbg.sc.charter.com (96.34.93.66)  59.613 ms  71.527 ms crr01spbgsc-bue-201.spbg.sc.charter.com (96.34.67.195)  75.060 ms
+ 8  bbr01gnvlsc-bue-4.gnvl.sc.charter.com (96.34.2.54)  83.341 ms bbr01spbgsc-bue-3.spbg.sc.charter.com (96.34.2.48)  31.934 ms  29.836 ms
+ 9  bbr01gnvlsc-bue-800.gnvl.sc.charter.com (96.34.0.134)  32.535 ms  34.212 ms bbr01aldlmi-tge-0-0-0-13.aldl.mi.charter.com (96.34.0.161)  43.164 ms
+10  prr01ashbva-bue-3.ashb.va.charter.com (96.34.3.51)  47.379 ms  52.355 ms  55.221 ms
+11  prr01ashbva-bue-3.ashb.va.charter.com (96.34.3.51)  68.163 ms  65.824 ms eqix-dc2.vocusconnect.com (206.126.237.175)  115.673 ms
+12  bundle-153.farewell-dm.cor02.lax01.ca.vocus.net (49.255.255.14)  236.934 ms eqix-dc2.vocusconnect.com (206.126.237.175)  118.714 ms  120.133 ms
+13  bundle-153.farewell-dm.cor02.lax01.ca.vocus.net (49.255.255.14)  239.874 ms  242.610 ms bundle-200.farewell-dm.cor01.akl05.akl.vocus.net.nz (114.31.202.46)  263.753 ms
+14  ten-0-0-0.bdr01.akl05.akl.VOCUS.net.nz (114.31.202.123)  262.531 ms bundle-200.farewell-dm.cor01.akl05.akl.vocus.net.nz (114.31.202.46)  261.057 ms ten-0-0-0.bdr01.akl05.akl.VOCUS.net.nz (114.31.202.123)  259.837 ms
+15  as4770.cust.bdr01.akl05.akl.VOCUS.net.nz (114.31.203.118)  270.088 ms  268.282 ms ten-0-0-0.bdr01.akl05.akl.VOCUS.net.nz (114.31.202.123)  278.175 ms
+16  as4770.cust.bdr01.akl05.akl.VOCUS.net.nz (114.31.203.118)  266.454 ms  273.607 ms  271.737 ms
+17  * 210.48.4.83 (210.48.4.83)  277.294 ms *
+18  210.48.11.50 (210.48.11.50)  274.009 ms *  269.739 ms

@@ -1,0 +1,13 @@
+traceroute to reddit.com (151.101.129.140), 30 hops max, 60 byte packets
+ 1  gateway (192.168.2.1)  1.427 ms  0.475 ms  1.121 ms
+ 2  10.0.2.2 (10.0.2.2)  1.124 ms  2.339 ms  2.643 ms
+ 3  64.139.244.1 (64.139.244.1)  70.155 ms  87.262 ms  88.675 ms
+ 4  static-host-24-31-25-1.nctv.com (24.31.25.1)  74.075 ms  76.013 ms  79.875 ms
+ 5  68-115-217-97.static.spbg.sc.charter.com (68.115.217.97)  85.178 ms  88.457 ms  95.760 ms
+ 6  dtr01arsnsc-tge-0-0-1-0.arsn.sc.charter.com (96.34.66.131)  93.361 ms  26.810 ms  24.678 ms
+ 7  crr01spbgsc-bue-201.spbg.sc.charter.com (96.34.67.195)  33.880 ms  31.089 ms  42.587 ms
+ 8  bbr01spbgsc-bue-3.spbg.sc.charter.com (96.34.2.48)  41.268 ms  40.688 ms  43.647 ms
+ 9  bbr02slidla-tge-0-1-0-4.slid.la.charter.com (96.34.0.133)  46.343 ms  45.511 ms  33.769 ms
+10  bbr02atlnga-tge-0-2-0-0.atln.ga.charter.com (96.34.3.111)  30.964 ms  32.610 ms  48.594 ms
+11  199.27.73.102 (199.27.73.102)  57.460 ms  51.719 ms  28.239 ms
+12  151.101.129.140 (151.101.129.140)  26.454 ms  32.972 ms  31.239 ms
